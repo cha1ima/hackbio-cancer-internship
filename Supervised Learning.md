@@ -1,6 +1,6 @@
 <!--StartFragment-->
 
-#**Supervised learning: a basic introduction**
+# **Supervised learning: a basic introduction**
 
 Author: @ChaimaBenMohamed
 
