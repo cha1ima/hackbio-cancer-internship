@@ -1,6 +1,6 @@
 <!--StartFragment-->
 
-**Supervised learning: a basic introduction**
+#**Supervised learning: a basic introduction**
 
 Author: @ChaimaBenMohamed
 
@@ -8,7 +8,7 @@ Author: @ChaimaBenMohamed
 
 According to Arthur Samuel, machine learning is the field of study that gives computers the ability to learn without being explicitly programmed (Samuel, 1959). Essentially, the more opportunities you give a learning algorithm to learn, the better it will perform. Like any multidisciplinary field, machine learning has different major types, the two main types are supervised learning and unsupervised learning. Of these two, supervised learning is the type of machine learning that is used most in many real-world applications and has seen the most rapid advancements and innovation.
 
-**What is supervised learning**
+## **What is supervised learning**
 
 Supervised machine learning, also known as supervised learning, refers to algorithms that learn to map x to y or input to output. The key characteristic of supervised learning is that the learning algorithm is given examples to learn from, by being presented with the appropriate label y for a given input x, and seeing how to correctly pair the input x to the desired output label y, the learning algorithm eventually is able to take just the input alone and gives an accurate prediction of the output. For example, If the input x is a cellularity level and the output y is the patient response to chemotherapy for breast cancer, Favorable Response  or unfavorable response, this gives an overview of what is the most adequate treatment for a certain patient. A learning algorithm can take as input a picture of a lesion, say a skin lesion and outputs whether it is a pox or not. This is called visual inspection and it's helping early detection of severe infections. In all of these applications, the model is trained with examples of inputs x and the right answers, that is the labels y. After the model has learned from these input, output, or x and y mappings, they can then take a brand new input x, something it has never seen before, and try to produce the appropriate corresponding output y. 
 
@@ -29,7 +29,7 @@ Tha algorithm maps the input variable to a continuous output variable
 
 For example: The treatment cost, the tumor size.
 
-**Some supervised learning algorithms**
+## **Some supervised learning algorithms**
 
 1- Linear regression
 
@@ -47,11 +47,11 @@ Separates the data points into different classes based on the best decision boun
 
 A combination of multiple decision trees which offers a higher accuracy when working with complex data.
 
-**Conclusion**
+## **Conclusion**
 
 Supervised learning algorithms need humans to give input and required output, It's a method where humans teach computers to learn from examples. A computer program in Supervised Learning is given a set of examples (data) that are already labeled.
 
-**References** 
+## **References** 
 
 Jiang, T., Gradus, J. L. and Rosellini, A. J. (2020) “Supervised machine learning: A brief primer,” Behavior therapy, 51(5), pp. 675–687. doi: 10.1016/j.beth.2020.05.002.
 
