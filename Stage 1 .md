@@ -1,8 +1,6 @@
 # **STAGE 1 MACHINE LEARNING AND DATA SCIENCE TASK**
 
-(@Hackbio @slack @Charlotte @ChaimaBenMohamed @igwebuikevee0000
-
-@Bonita)
+(@Hackbio @slack @Charlotte @ChaimaBenMohamed @igwebuikevee0000 @Bonita)
 
 ## **Introduction**
 
