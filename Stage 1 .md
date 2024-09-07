@@ -1,10 +1,10 @@
-#**STAGE 1 MACHINE LEARNING AND DATA SCIENCE TASK**
+# **STAGE 1 MACHINE LEARNING AND DATA SCIENCE TASK**
 
 (@Hackbio @slack @Charlotte @ChaimaBenMohamed @igwebuikevee0000
 
 @Bonita)
 
-##**Introduction**
+## **Introduction**
 
 The article \&quot;Multi-omic machine learning predictor of breast cancer therapy
 
@@ -26,7 +26,7 @@ infiltration, and other factors to assess their correlation with therapy outcome
 
 pathological complete response (pCR) or residual disease.
 
-##**Machine learning model architecture and performance**
+## **Machine learning model architecture and performance**
 
 The core focus of the article is the machine learning framework developed to integrate
 
@@ -48,7 +48,7 @@ under the curve (AUC) score of 0.87 in external validation, proving the effectiv
 
 the model in predicting therapy response.
 
-##**Biological findings**
+## **Biological findings**
 
 The findings revealed that pre-treatment tumor characteristics, such as immune activity
 
@@ -62,7 +62,7 @@ role of clonal diversity and subclonal mutations in treatment resistance, identi
 
 features as critical for understanding residual disease.
 
-##**Conclusion**
+## **Conclusion**
 
 This work underscores the power of multi-omic data integration in machine learning
 
@@ -78,7 +78,7 @@ chemoresistant tumors by suggesting novel therapies when conventional treatments
 
 may not be effective.
 
-##**REFERENCES**
+## **REFERENCES**
 
 Sammut, S. J., Crispin-Ortuzar, M., Chin, S. F., Provenzano, E., Bardwell, H. A., Ma, W.,
 
