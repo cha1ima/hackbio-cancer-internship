@@ -9,7 +9,7 @@
 - Chigozie Nkwocha
 - Igwebuike Vivian
 - Opeyemi De Campos
-- Reem  Atawia****
+- Reem  Atawia
 
 **Overview**
 
