@@ -1,88 +1,40 @@
-<a id="_6agy3xqjct9u"></a>**Gene Expression Patterns in Glioblastoma: Heatmap Visualization and Pathway Enrichment Analysis**
+**Gene Expression Patterns in Glioblastoma: Heatmap Visualization and Pathway Enrichment Analysis**
 
-@Hackbio @slack
+@Hackbio @slack 
 
  _Authors:_
 
-<!--[if !supportLists]-->●      <!--[endif]-->Chaima BenMohamed
+- Chaimaa BenMohamed
+- Charlotte Chinwendu Iwuji
+- Chigozie Nkwocha
+- Igwebuike Vivian
+- Opeyemi De Campos
+- Reem  Atawia****
 
-<!--[if !supportLists]-->●      <!--[endif]-->Charlotte Chinwendu Iwuji
+**Overview**
 
-<!--[if !supportLists]-->●      <!--[endif]-->Chigozie Nkwocha
+This task focuses on visualizing and interpreting a gene expression dataset related to glioblastoma, the most common primary malignant brain tumor. The aim is to generate heatmaps, identify differentially expressed genes (DEGs), and perform functional enrichment analysis to interpret biological processes that contribute to the disease.
 
-<!--[if !supportLists]-->●      <!--[endif]-->Igwebuike Vivian
+**Protein with unfavorable prognosis in glioblastoma,**
 
-<!--[if !supportLists]-->●      <!--[endif]-->Opeyemi De Campos
+Numerous genes are implicated in the pathogenesis of glioblastoma, including the EGF (Epidermal Growth Factor) gene, which encodes the Epidermal Growth Factor Receptor (EGFR) protein that plays a critical role in cell signaling pathways regulating cell division and survival (Brosseau et al., 2015). Mutations in this gene can lead to EGFR overexpression, resulting in abnormal cell proliferation, with most mutations occurring in the EGFRvII and EGFRvIII variants, while the EGFRx variant, which lacks a binding domain due to the deletion of exons 2–14, is essential for tumor growth in glioblastoma xenografts (Huang et al., 2023; Chen et al., 2016; Singh et al., 2023).
 
-<!--[if !supportLists]-->●      <!--[endif]-->Reem  Atawia
-
-
-# <a id="_18hap44o051h"></a> 
-
-# <a id="_hpl2mx8rc74"></a> 
-
-****
-
-
-# <a id="_uexrg32exz33"></a> 
-
-# <a id="_ucx8kgj2u9ge"></a>Introduction
-
-Glioblastoma, the most prevalent primary malignant brain tumor in adults, constitutes around 50% of such cases. It affects approximately 3-4 individuals per 100,000 and has a median survival of 14-20 months, varying with the patient's age at diagnosis. Early diagnosis involves surgical resection, stereotactic tumor biopsy, or medical imaging. Current treatment includes surgical resection, radiotherapy, and chemotherapy (Brown et al., 2022). Ongoing research employs omics techniques to better understand the disease's pathogenesis and metabolic pathways (Gilard et al., 2021). This report analyses differentially expressed genes in glioblastoma using RNA-seq data, available [here](https://raw.githubusercontent.com/HackBio-Internship/public_datasets/main/Cancer2024/glioblastoma.csv), and conducts pathway enrichment analysis to elucidate the biological processes involved in its pathogenesis.****
-
-
-# <a id="_of07d0c8m5gw"></a>Protein with unfavorable prognosis in GBM
-
-As shown in Figure 1, many genes are known to cause the pathogenesis of glioblastoma. Amongst this is the EGF (Epidermal growth factor) gene. This gene encodes the Epidermal Growth Factor Receptor (EGFR) protein which is involved in cell signaling pathways that control cell division and survival. The** **EGFR protein, also known as HER1 or ErbB1, is part of the ErbB receptor family and has a tyrosine kinase activity (Brosseau _et al_., 2015).
-
-Mutations in this gene can lead to the overexpression of the EGFR protein resulting in an abnormal or uncontrolled cellular proliferation. In EGFR-driven glioblastoma, the majority of mutations are missense mutations on the EGFRvII and EGFRvIII variants. One other variant, the EGFRx variant, which has deleted exons 2–14 and lacks a binding domain, is crucial for tumor growth and development in glioblastoma xenografts (Huang _et al_., 2023, Chen _et a_l., 2016, Singh _et al_., 2023).
-
-<!--[if gte vml 1]><v:shapetype id="_x0000_t75" coordsize="21600,21600"
- o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f"
- stroked="f">
- <v:stroke joinstyle="miter"/>
- <v:formulas>
-  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
-  <v:f eqn="sum @0 1 0"/>
-  <v:f eqn="sum 0 0 @1"/>
-  <v:f eqn="prod @2 1 2"/>
-  <v:f eqn="prod @3 21600 pixelWidth"/>
-  <v:f eqn="prod @3 21600 pixelHeight"/>
-  <v:f eqn="sum @0 0 1"/>
-  <v:f eqn="prod @6 1 2"/>
-  <v:f eqn="prod @7 21600 pixelWidth"/>
-  <v:f eqn="sum @8 21600 0"/>
-  <v:f eqn="prod @7 21600 pixelHeight"/>
-  <v:f eqn="sum @10 21600 0"/>
- </v:formulas>
- <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
- <o:lock v:ext="edit" aspectratio="t"/>
-</v:shapetype><v:shape id="image4.png" o:spid="_x0000_i1031" type="#_x0000_t75"
- style='width:451.2pt;height:208.2pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="file:///C:/Users/MONTA/AppData/Local/Temp/msohtmlclip1/01/clip_image001.png"
-  o:title=""/>
-</v:shape><![endif]--><!--[if !vml]-->![](https://github.com/cha1ima/hackbio-cancer-internship/blob/main/Stage%202/Images/Figure%201.png?raw=true)<!--[endif]-->
 ![Figure 1](https://github.com/cha1ima/hackbio-cancer-internship/blob/main/Stage%202/Images/Figure%201.png?raw=true)
 **_Figure 1: _**_EGFR signaling and related pathways in cancer involve gene products that transmit signals from the cell surface to the nucleus, mediated by EGFR._
 
 
-# <a id="_f5ecxpz5n8r7"></a>Data Preprocessing and Analysis
+**Data Preprocessing and Visualization**
 
-The downloaded dataset contains over 500 gene expressions from 10 patients. This data was explored and preprocessed for analysis. Data exploration and preprocessing steps include data visualization to visualize the pattern in gene expression levels using a heatmap. Heatmaps showed clusters from genes and samples alone and both samples and genes together.
+Using the glioblastoma dataset, containing over 500 differentially expressed genes from 10 patients, the first step involved preprocessing, which included data normalization and exploration. Heatmaps were generated using a diverging and sequential color palette to improve interpretation. The diverging palette effectively visualized the difference between upregulated and downregulated genes, while the sequential palette allowed a smoother transition in gene expression intensities. Both palettes were essential for making high, low, and medium values easily distinguishable.
 
-Heatmaps rely on color to represent the magnitude of values, so appropriate color selection ensures that high, low, and medium values are clearly distinguishable. The **diverging color palette** uses colors to show how values deviate from low to high with a midpoint, while the **sequential color palette **highlights how data points move from an increasing continuous value in a gradient. Appropriate diverging or sequential colours aid colour-blind friendliness.
+Clustering of genes and samples was performed in three ways:
 
-
-## <a id="_it1sgdtox51o"></a>Data Visualization
+1. Clustering of genes alone (Figure 2).
+2. Clustering of both genes and samples (Figure 3.
+3. Clustering of samples alone (Figure 4).
 
 **Genes only**
 
-<!--[if gte vml 1]><v:shape id="image3.png" o:spid="_x0000_i1030"
- type="#_x0000_t75" style='width:451.2pt;height:351pt;visibility:visible;
- mso-wrap-style:square'>
- <v:imagedata src="file:///C:/Users/MONTA/AppData/Local/Temp/msohtmlclip1/01/clip_image003.png"
-  o:title=""/>
-</v:shape><![endif]--><!--[if !vml]-->![](https://github.com/cha1ima/hackbio-cancer-internship/blob/main/Stage%202/Images/Figure%202.png?raw=true)<!--[endif]-->
 ![Figure 2](https://github.com/cha1ima/hackbio-cancer-internship/blob/main/Stage%202/Images/Figure%202.png?raw=true)
 **_Figure 2: _**_Heatmap showing clusters on genes alone_
 
@@ -93,12 +45,7 @@ Heatmaps rely on color to represent the magnitude of values, so appropriate colo
 
 **Both genes and samples**
 
-<!--[if gte vml 1]><v:shape id="image2.png" o:spid="_x0000_i1029"
- type="#_x0000_t75" style='width:418.2pt;height:325.2pt;visibility:visible;
- mso-wrap-style:square'>
- <v:imagedata src="file:///C:/Users/MONTA/AppData/Local/Temp/msohtmlclip1/01/clip_image005.png"
-  o:title=""/>
-</v:shape><![endif]--><!--[if !vml]-->![](https://github.com/cha1ima/hackbio-cancer-internship/blob/main/Stage%202/Images/Figure%203.png?raw=true)<!--[endif]-->
+
 ![Figure 3](https://github.com/cha1ima/hackbio-cancer-internship/blob/main/Stage%202/Images/Figure%203.png?raw=true)
 **_Figure 3: _**_Heatmap showing clusters on genes and samples_****
 
@@ -106,25 +53,20 @@ Heatmaps rely on color to represent the magnitude of values, so appropriate colo
 
 **Samples only**
 
-<!--[if gte vml 1]><v:shape id="image6.png" o:spid="_x0000_i1028"
- type="#_x0000_t75" style='width:430.8pt;height:307.2pt;visibility:visible;
- mso-wrap-style:square'>
- <v:imagedata src="file:///C:/Users/MONTA/AppData/Local/Temp/msohtmlclip1/01/clip_image007.png"
-  o:title=""/>
-</v:shape><![endif]--><!--[if !vml]-->![](https://github.com/cha1ima/hackbio-cancer-internship/blob/main/Stage%202/Images/Figure%204.png?raw=true)<!--[endif]-->
+
 ![Figure 4](https://github.com/cha1ima/hackbio-cancer-internship/blob/main/Stage%202/Images/Figure%204.png?raw=true)
 **_Figure 4: _**_Heatmap showing clusters on samples alone_
 
-Based on the pattern seen in Figure 4, samples with ‘2005’ in their IDs were assigned to one group and others to another group, and these groups were used as metadata for gene expression analysis.
+These visualizations identified distinct gene expression patterns, helping to group related genes and patients based on their molecular signatures.
 
 
-## <a id="_epubdsw9ew7s"></a>Data Analysis and Results
+**Differentially Expressed Genes (DEGs)**
 
-**Differentially expressed genes**
+DEGs were identified using a t-statistical test, setting a significance level of 5%. The log2 fold change (FC) was calculated using this formula:
 
-To determine differentially expressed genes, the t-statistical test was used to compare if the mean gene expression** **levels between groups are statistically significant at a 5% significance level. Next, the log2 fold change for each gene between groups was obtained. Using a cutoff of absolute log2 fold change of 1.5, differentially expressed genes were selected for genes with absolute fold changes greater than 1.5, where upregulated genes had log2 fold changes greater than 1.5 and downregulated genes less than -1.5.
+![LogFC](https://github.com/cha1ima/hackbio-cancer-internship/blob/main/Stage%202/Images/LogFC%20equation.png?raw=true)
 
-From our result, 10 upregulated and 2 downregulated genes were obtained. Figure 5 is a volcano plot showing differentially expressed genes (in green and coral colors).
+with cut-offs of >1.5 for upregulation and <-1.5 for downregulation. From the analysis, 10 genes were upregulated and 2 were downregulated (Figure 5). A volcano plot was created to visualize these results, showing how significantly genes were either up- or downregulated based on their p-values and fold changes.
 
 <!--[if gte vml 1]><v:shape id="image7.png" o:spid="_x0000_i1027"
  type="#_x0000_t75" style='width:431.4pt;height:307.8pt;visibility:visible;
@@ -138,7 +80,7 @@ From our result, 10 upregulated and 2 downregulated genes were obtained. Figure 
 
 **Functional Enrichment Analysis**
 
-Functional enrichment analysis was performed with ShinyGO using the upregulated and downregulated gene IDs. According to biological processes, three enriched pathways were identified for upregulated genes, namely: Glutathione derivative metabolic process, Glutathione derivative biosynthetic process, and Proteolysis, while five enriched pathways were identified for downregulated genes, namely: Ribosomal small subunit assembly, Maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA 5), Maturation of SSU-rRNA , Ribosomal Small Subunit Biogenesis and Ribosome assembly as shown in figure 6 and figure 7 below with pvalue < 0.05 and log2FC < -1.5, for downregulation and pvalue < 0.05 and log2FC > 1.5, for upregulation.
+Using ShinyGO (Ge et al., 2019b), functional enrichment analysis was performed to identify key biological pathways affected by the upregulated and downregulated genes (Figures 6 and 7). Lollipop plots were created to show the top five pathways, scaling the points according to the negative log10 of the p-value to reflect their significance.
 
 <!--[if gte vml 1]><v:shape id="image5.png" o:spid="_x0000_i1026"
  type="#_x0000_t75" style='width:451.2pt;height:313.2pt;visibility:visible;
@@ -162,36 +104,24 @@ Functional enrichment analysis was performed with ShinyGO using the upregulated 
 
 Figures 6 and 7 are **lollipop charts** showing the top biological processes for downregulated and upregulated genes, respectively. The dots show the number of genes in each biological process and the colors of the line show their fold enrichment scores.
 
-**Top 3 Upregulated enriched pathways according to biological processes**
+The top 3 upregulated pathways include:
 
-**1. Glutathione derivative metabolic proc.**
+1. **Glutathione derivative metabolic process**: Critical in neutralizing reactive oxygen species (ROS) and promoting cancer cell survival through redox balance (Kennedy et al., 2020).
+2. **Glutathione derivative biosynthetic process**: Involves increased glutathione production, allowing glioblastoma cells to survive oxidative stress (Backos et al., 2012).
+3. **Proteolysis**: Supports extracellular matrix degradation and enhances tumor growth by remodeling the tumor microenvironment (Bischof et al., 2017).
 
-**Description:** This pathway involves the metabolism of glutathione derivatives, crucial for neutralizing reactive oxygen species (ROS) and protecting cells from oxidative stress. In cancer, changes in the glutathione system contribute to tumor initiation, progression, and treatment response. While glutathione detoxifies carcinogens in healthy cells, elevated levels in tumor cells promote growth and resistance to chemotherapy.** **(Kennedy_ et al._, 2020)
+**Top 3 Downregulated Pathways:**
 
-**2. Glutathione derivative Bio synthetic proc.**
+1. **Ribosomal small subunit assembly**: Ribosomal proteins support tumor progression by maintaining stem-cell-like properties in glioblastoma (Hide et al., 2022).
+2. **Maturation of SSU-rRNA from tricistronic rRNA transcript**: Disruptions in ribosomal function promote carcinogenesis (Shirakawa et al., 2021).
+3. **Maturation of SSU-rRNA**: Linked to ribosomal disorders, contributing to tumor development (McElreavey et al., 2022).
 
-**Description:** This pathway involves the biosynthesis of glutathione derivatives, essential for detoxification and protection against oxidative damage. In cancer, upregulation of this pathway reflects increased glutathione production to maintain redox balance, helping tumor cells, like in glioblastoma, survive oxidative stress and enhance aggressiveness.(Backos _et al_., 2012)****
-
-**3. Proteolysis**
-
-**Description: **In glioblastoma, increased proteolysis may aid tumor microenvironment remodeling, extracellular matrix degradation, and misfolded protein clearance, helping cancer cells survive stress, avoid apoptosis, and support tumor growth and metastasis. Lysosomal cathepsins regulate protein degradation to maintain proteome balance, but dysregulated activity can be harmful. In tumor cells, certain cathepsins are upregulated, with elevated Cathepsin B activity linked to increased glioblastoma stem cell mobility. (Bischof _et al.,_ 2017)****
-
-**Top 3 Down regulated enriched pathways according to biological processes**
-
-**1. Ribosomal small subunit assembly**
-
-Ribosomal proteins possess both oncogenic and anti-tumor  activities. Increased expression of ribosomal protein S6 ensures stem-cell-like phenotypes in Glioblastoma (Hide _et al., 2022_)
-
-**2. Maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA 5)**
-
-Ribosomal proteins are linked to various aspects of carcinogenesis, with their extra-ribosomal functions causing negative effects such as cell cycle arrest, apoptosis, and cellular senescence.(Shirakawa_ et al_., 2021)
-
-**3. Maturation of SSU-rRNA : **Ribosomopathies in humans are disorders resulting from genetic defects in ribosomal proteins, rRNAs, or RNA polymerases, causing disabilities and promoting cancer development.(McElreavey _et al._, 2022)
+These analyses provided insights into the pathways driving glioblastoma pathogenesis, offering potential targets for therapeutic intervention.
 
  
 
 
-# <a id="_o9gzjgtxffh5"></a>REFERENCES
+# **REFERENCES**
 
 Backos, D.S., Franklin, C.C. and Reigan, P., 2012. The role of glutathione in brain tumor drug resistance. _Biochemical Pharmacology_, 83(8), pp.1005-1012. doi: 10.1016/j.bcp.2011.11.016.
 
@@ -216,3 +146,7 @@ McElreavey, K., Pailhoux, E. and Bashamboo, A., 2022. DHX37 and 46,XY DSD: A new
 Singh, S., Barik, D., Lawrie, K., Mohapatra, I., Prasad, S., Naqvi, A.R., Singh, A. and Singh, G., 2023. Unveiling novel avenues in mTOR-targeted therapeutics: Advancements in glioblastoma treatment. _International Journal of Molecular Sciences_, 24, p.14960.
 
 Shirakawa, Y., Ohta, K., Miyake, S., Kanemaru, A., Kuwano, A., Yonemaru, K., Uchino, S., Yamaoka, M., Ito, Y., Ito, N., Hide, T., Shinojima, N., Mukasa, A., Saito, H. and Jono, H., 2021. Glioma cells acquire stem-like characters by extrinsic ribosome stimuli. _Cells_, 10(11), p.2970. doi: 10.3390/cells10112970.
+
+<a id="_6agy3xqjct9u"></a>
+
+Ge, S. X., Jung, D., & Yao, R. (2020). ShinyGO: a graphical gene-set enrichment tool for animals and plants. _Bioinformatics (Oxford, England)_, _36_(8), 2628–2629. doi:10.1093/bioinformatics/btz931.
