@@ -62,7 +62,7 @@ Mutations in this gene can lead to the overexpression of the EGFR protein result
  <v:imagedata src="file:///C:/Users/MONTA/AppData/Local/Temp/msohtmlclip1/01/clip_image001.png"
   o:title=""/>
 </v:shape><![endif]--><!--[if !vml]-->![](https://github.com/cha1ima/hackbio-cancer-internship/blob/main/Stage%202/Images/Figure%201.png?raw=true)<!--[endif]-->
-
+![Figure 1](https://github.com/cha1ima/hackbio-cancer-internship/blob/main/Stage%202/Images/Figure%201.png?raw=true)
 **_Figure 1: _**_EGFR signaling and related pathways in cancer involve gene products that transmit signals from the cell surface to the nucleus, mediated by EGFR._
 
 
