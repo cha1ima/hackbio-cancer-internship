@@ -40,10 +40,7 @@ Clustering of genes and samples was performed in three ways:
 
 **_Figure 2: _**_Heatmap showing clusters on genes alone_
 
-\
 
-
-**_ _**
 
 **Both genes and samples**
 
