@@ -69,12 +69,6 @@ DEGs were identified using a t-statistical test, setting a significance level of
 
 with cut-offs of >1.5 for upregulation and <-1.5 for downregulation. From the analysis, 10 genes were upregulated and 2 were downregulated (Figure 5). A volcano plot was created to visualize these results, showing how significantly genes were either up- or downregulated based on their p-values and fold changes.
 
-<!--[if gte vml 1]><v:shape id="image7.png" o:spid="_x0000_i1027"
- type="#_x0000_t75" style='width:431.4pt;height:307.8pt;visibility:visible;
- mso-wrap-style:square'>
- <v:imagedata src="file:///C:/Users/MONTA/AppData/Local/Temp/msohtmlclip1/01/clip_image009.png"
-  o:title=""/>
-</v:shape><![endif]--><!--[if !vml]-->![](https://github.com/cha1ima/hackbio-cancer-internship/blob/main/Stage%202/Images/Figure%205.png?raw=true)<!--[endif]-->
 ![Figure 5](https://github.com/cha1ima/hackbio-cancer-internship/blob/main/Stage%202/Images/Figure%205.png?raw=true)
 
 **_Figure 5: _**_Volcano Plot of Glioblastoma dataset (Horizontal axis represents log2-fold change, and the vertical axis represents adjusted p-value)._
@@ -83,22 +77,10 @@ with cut-offs of >1.5 for upregulation and <-1.5 for downregulation. From the an
 
 Using ShinyGO (Ge et al., 2019b), functional enrichment analysis was performed to identify key biological pathways affected by the upregulated and downregulated genes (Figures 6 and 7). Lollipop plots were created to show the top five pathways, scaling the points according to the negative log10 of the p-value to reflect their significance.
 
-<!--[if gte vml 1]><v:shape id="image5.png" o:spid="_x0000_i1026"
- type="#_x0000_t75" style='width:451.2pt;height:313.2pt;visibility:visible;
- mso-wrap-style:square'>
- <v:imagedata src="file:///C:/Users/MONTA/AppData/Local/Temp/msohtmlclip1/01/clip_image011.png"
-  o:title=""/>
-</v:shape><![endif]--><!--[if !vml]-->![](https://github.com/cha1ima/hackbio-cancer-internship/blob/main/Stage%202/Images/Figure%206.png?raw=true)<!--[endif]-->
 ![Figure 6](https://github.com/cha1ima/hackbio-cancer-internship/blob/main/Stage%202/Images/Figure%206.png?raw=true)
 
 **_Figure 6: _**_Top five biological processes for downregulated genes._
 
-<!--[if gte vml 1]><v:shape id="image1.png" o:spid="_x0000_i1025"
- type="#_x0000_t75" style='width:432.6pt;height:299.4pt;visibility:visible;
- mso-wrap-style:square'>
- <v:imagedata src="file:///C:/Users/MONTA/AppData/Local/Temp/msohtmlclip1/01/clip_image013.png"
-  o:title=""/>
-</v:shape><![endif]--><!--[if !vml]-->![](https://github.com/cha1ima/hackbio-cancer-internship/blob/main/Stage%202/Images/Figure%207.png?raw=true)<!--[endif]-->
 ![Figure 7](https://github.com/cha1ima/hackbio-cancer-internship/blob/main/Stage%202/Images/Figure%207.png?raw=true)
 
 **_Figure 7_**_: Top three biological processes pathways for upregulated genes._
