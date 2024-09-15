@@ -17,7 +17,7 @@ This task focuses on visualizing and interpreting a gene expression dataset rela
 
 **Protein with unfavorable prognosis in glioblastoma**
 
-Numerous genes are implicated in the pathogenesis of glioblastoma, including the EGF (Epidermal Growth Factor) gene, which encodes the Epidermal Growth Factor Receptor (EGFR) protein that plays a critical role in cell signaling pathways regulating cell division and survival (Brosseau et al., 2015). Mutations in this gene can lead to EGFR overexpression, resulting in abnormal cell proliferation, with most mutations occurring in the EGFRvII and EGFRvIII variants, while the EGFRx variant, which lacks a binding domain due to the deletion of exons 2–14, is essential for tumor growth in glioblastoma xenografts (Huang et al., 2023; Chen et al., 2016; Singh et al., 2023).
+Numerous genes are implicated in the pathogenesis of glioblastoma (Figure 1), including the EGF (Epidermal Growth Factor) gene, which encodes the Epidermal Growth Factor Receptor (EGFR) protein that plays a critical role in cell signaling pathways regulating cell division and survival (Brosseau et al., 2015). Mutations in this gene can lead to EGFR overexpression, resulting in abnormal cell proliferation, with most mutations occurring in the EGFRvII and EGFRvIII variants, while the EGFRx variant, which lacks a binding domain due to the deletion of exons 2–14, is essential for tumor growth in glioblastoma xenografts (Huang et al., 2023; Chen et al., 2016; Singh et al., 2023).
 
 ![Figure 1](https://github.com/cha1ima/hackbio-cancer-internship/blob/main/Stage%202/Images/Figure%201.png?raw=true)
 
