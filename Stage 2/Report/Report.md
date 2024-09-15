@@ -111,8 +111,8 @@ Heatmaps rely on color to represent the magnitude of values, so appropriate colo
  mso-wrap-style:square'>
  <v:imagedata src="file:///C:/Users/MONTA/AppData/Local/Temp/msohtmlclip1/01/clip_image007.png"
   o:title=""/>
-</v:shape><![endif]--><!--[if !vml]-->![](file:///C:/Users/MONTA/AppData/Local/Temp/msohtmlclip1/01/clip_image008.jpg)<!--[endif]-->
-
+</v:shape><![endif]--><!--[if !vml]-->![](https://github.com/cha1ima/hackbio-cancer-internship/blob/main/Stage%202/Images/Figure%204.png?raw=true)<!--[endif]-->
+![Figure 4](https://github.com/cha1ima/hackbio-cancer-internship/blob/main/Stage%202/Images/Figure%204.png?raw=true)
 **_Figure 4: _**_Heatmap showing clusters on samples alone_
 
 Based on the pattern seen in Figure 4, samples with ‘2005’ in their IDs were assigned to one group and others to another group, and these groups were used as metadata for gene expression analysis.
