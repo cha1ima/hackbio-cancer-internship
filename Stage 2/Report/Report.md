@@ -108,7 +108,7 @@ Using ShinyGO (Ge et al., 2019b), functional enrichment analysis was performed t
 
 Figures 6 and 7 are **lollipop charts** showing the top biological processes for downregulated and upregulated genes, respectively. The dots show the number of genes in each biological process and the colors of the line show their fold enrichment scores.
 
-The top 3 upregulated pathways include:
+**The top 3 upregulated pathways include:**
 
 1. **Glutathione derivative metabolic process**: Critical in neutralizing reactive oxygen species (ROS) and promoting cancer cell survival through redox balance (Kennedy et al., 2020).
 2. **Glutathione derivative biosynthetic process**: Involves increased glutathione production, allowing glioblastoma cells to survive oxidative stress (Backos et al., 2012).
