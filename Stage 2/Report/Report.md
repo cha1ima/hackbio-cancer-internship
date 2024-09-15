@@ -154,8 +154,8 @@ Functional enrichment analysis was performed with ShinyGO using the upregulated 
  mso-wrap-style:square'>
  <v:imagedata src="file:///C:/Users/MONTA/AppData/Local/Temp/msohtmlclip1/01/clip_image013.png"
   o:title=""/>
-</v:shape><![endif]--><!--[if !vml]-->![](file:///C:/Users/MONTA/AppData/Local/Temp/msohtmlclip1/01/clip_image014.jpg)<!--[endif]-->
-
+</v:shape><![endif]--><!--[if !vml]-->![](https://github.com/cha1ima/hackbio-cancer-internship/blob/main/Stage%202/Images/Figure%207.png?raw=true)<!--[endif]-->
+![Figure 7](https://github.com/cha1ima/hackbio-cancer-internship/blob/main/Stage%202/Images/Figure%207.png?raw=true)
 **_Figure 7_**_: Top three biological processes pathways for upregulated genes._
 
 Figures 6 and 7 are **lollipop charts** showing the top biological processes for downregulated and upregulated genes, respectively. The dots show the number of genes in each biological process and the colors of the line show their fold enrichment scores.
