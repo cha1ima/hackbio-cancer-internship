@@ -145,8 +145,8 @@ Functional enrichment analysis was performed with ShinyGO using the upregulated 
  mso-wrap-style:square'>
  <v:imagedata src="file:///C:/Users/MONTA/AppData/Local/Temp/msohtmlclip1/01/clip_image011.png"
   o:title=""/>
-</v:shape><![endif]--><!--[if !vml]-->![](file:///C:/Users/MONTA/AppData/Local/Temp/msohtmlclip1/01/clip_image012.jpg)<!--[endif]-->
-
+</v:shape><![endif]--><!--[if !vml]-->![](https://github.com/cha1ima/hackbio-cancer-internship/blob/main/Stage%202/Images/Figure%206.png?raw=true)<!--[endif]-->
+![Figure 6](https://github.com/cha1ima/hackbio-cancer-internship/blob/main/Stage%202/Images/Figure%206.png?raw=true)
 **_Figure 6: _**_Top five biological processes for downregulated genes._
 
 <!--[if gte vml 1]><v:shape id="image1.png" o:spid="_x0000_i1025"
