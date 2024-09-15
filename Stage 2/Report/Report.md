@@ -131,8 +131,8 @@ From our result, 10 upregulated and 2 downregulated genes were obtained. Figure 
  mso-wrap-style:square'>
  <v:imagedata src="file:///C:/Users/MONTA/AppData/Local/Temp/msohtmlclip1/01/clip_image009.png"
   o:title=""/>
-</v:shape><![endif]--><!--[if !vml]-->![](file:///C:/Users/MONTA/AppData/Local/Temp/msohtmlclip1/01/clip_image010.jpg)<!--[endif]-->
-
+</v:shape><![endif]--><!--[if !vml]-->![](https://github.com/cha1ima/hackbio-cancer-internship/blob/main/Stage%202/Images/Figure%205.png?raw=true)<!--[endif]-->
+![Figure 5](https://github.com/cha1ima/hackbio-cancer-internship/blob/main/Stage%202/Images/Figure%205.png?raw=true)
 **_Figure 5: _**_Volcano Plot of Glioblastoma dataset (Horizontal axis represents log2-fold change, and the vertical axis represents adjusted p-value)._
 
 **Functional Enrichment Analysis**
