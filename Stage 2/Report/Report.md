@@ -82,8 +82,8 @@ Heatmaps rely on color to represent the magnitude of values, so appropriate colo
  mso-wrap-style:square'>
  <v:imagedata src="file:///C:/Users/MONTA/AppData/Local/Temp/msohtmlclip1/01/clip_image003.png"
   o:title=""/>
-</v:shape><![endif]--><!--[if !vml]-->![](file:///C:/Users/MONTA/AppData/Local/Temp/msohtmlclip1/01/clip_image004.jpg)<!--[endif]-->
-
+</v:shape><![endif]--><!--[if !vml]-->![](https://github.com/cha1ima/hackbio-cancer-internship/blob/main/Stage%202/Images/Figure%202.png?raw=true)<!--[endif]-->
+![Figure 2](https://github.com/cha1ima/hackbio-cancer-internship/blob/main/Stage%202/Images/Figure%202.png?raw=true)
 **_Figure 2: _**_Heatmap showing clusters on genes alone_
 
 \
