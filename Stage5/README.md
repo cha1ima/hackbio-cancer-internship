@@ -10,7 +10,7 @@ PDF Presentation: The slides presented during our project defense, summarizing t
 ## **Links:**
 Video Presentation [video](Stage5/Hackbio_Task5.mp4)
 
-PDF Presentation
+PDF Presentation [pdf](
 
 ## **Authors:**
 Chaima BenMohamed
