@@ -8,7 +8,7 @@ Video Presentation: A detailed walk-through of our methodology and the expected 
 PDF Presentation: The slides presented during our project defense, summarizing the workflow and main outcomes.
 
 ## **Links:**
-[![Video Presentation](https://raw.githubusercontent.com/username/repository/branch/path/to/thumbnail.jpg)]([Stage5/Hackbio_Task5.mp4](https://github.com/cha1ima/hackbio-cancer-internship/blob/main/Stage5/Hackbio_Task5.mp4))
+[![Video Presentation](https://github.com/cha1ima/hackbio-cancer-internship/blob/main/Stage5/thumbnail.jpg)]([Stage5/Hackbio_Task5.mp4](https://github.com/cha1ima/hackbio-cancer-internship/blob/main/Stage5/Hackbio_Task5.mp4))
 
 PDF Presentation [pdf](Stage5/Stage5task.pdf)
 
