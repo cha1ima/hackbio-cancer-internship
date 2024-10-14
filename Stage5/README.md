@@ -8,7 +8,7 @@ Video Presentation: A detailed walk-through of our methodology and the expected 
 PDF Presentation: The slides presented during our project defense, summarizing the workflow and main outcomes.
 
 ## **Links:**
-Video Presentation [video](Stage5/Hackbio_Task5.mp4)
+[![Video Presentation](https://raw.githubusercontent.com/username/repository/branch/path/to/thumbnail.jpg)](https://raw.githubusercontent.com/username/repository/branch/path/to/video.mp4)
 
 PDF Presentation [pdf](Stage5/Stage5task.pdf)
 
